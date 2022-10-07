@@ -1,0 +1,3 @@
+home: "/home/$USER"
+domain: "example2.com"
+email: "$USER@$domain"

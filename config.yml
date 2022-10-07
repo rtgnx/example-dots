@@ -1,0 +1,8 @@
+- name: "bash"
+  templates:
+    - bash/*.tpl
+  rpath: "."
+  filemap:
+    bashrc.tpl: ".bashrc"
+    bash_profile.tpl: ".bash_profile"
+  dot: true
